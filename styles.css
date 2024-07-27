@@ -1,0 +1,76 @@
+/*
+    Student Name: Alexander Taylor
+    File Name: styles.css
+    Today's Date: July 19, 2024
+*/
+
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #3b3b3b;
+    color: #f6eee4;
+    padding: 1.5% 0;
+    word-spacing: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #e0d7ca;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #222222;
+    color: #f6eee4;
+    padding: 0.1% 0;
+    font-weight: bolder;
+}
+
+footer a {
+    color: #e0d7ca;
+    text-decoration: none;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+figure {
+    border: 4px solid #2a1f14;
+    box-shadow: 6px 6px 10px #c7c0ba;
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+figcaption {
+    padding: 1.5%;
+    border-top: 4px solid #110b0b;
+    text-align: center;
+}
+
+main {
+    padding: 1.25%;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+header {
+    text-align: center;
+    margin: 2em 0 0.5em 0;
+
+}
